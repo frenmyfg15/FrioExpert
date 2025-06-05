@@ -4,12 +4,12 @@ import Image from "next/image";
 import { useEffect, useRef } from "react";
 
 const logos = [
-  { src: "/image/marcas/lg.webp", alt: "Logo LG" },
-  { src: "/image/marcas/samsung.webp", alt: "Logo Samsung" },
-  { src: "/image/marcas/whirlpool.webp", alt: "Logo Whirlpool" },
-  { src: "/image/marcas/frigidaire.webp", alt: "Logo Frigidaire" },
-  { src: "/image/marcas/hisense.webp", alt: "Logo Hisense" },
-  { src: "/image/marcas/mabe.webp", alt: "Logo Mabe" },
+  "/image/marcas/lg.webp",
+  "/image/marcas/samsung.webp",
+  "/image/marcas/whirlpool.webp",
+  "/image/marcas/frigidaire.webp",
+  "/image/marcas/hisense.webp",
+  "/image/marcas/mabe.webp",
 ];
 
 export default function MarcasCarrusel() {
@@ -22,9 +22,10 @@ export default function MarcasCarrusel() {
     let offset = 0;
 
     const scroll = () => {
-      offset -= 0.5;
+      offset -= 0.5; // Velocidad ajustable
       track.style.transform = `translateX(${offset}px)`;
 
+      // Reinicia el desplazamiento cuando pasa la mitad del ancho
       if (Math.abs(offset) >= track.scrollWidth / 2) {
         offset = 0;
       }
@@ -36,29 +37,22 @@ export default function MarcasCarrusel() {
   }, []);
 
   return (
-    <section
-      className="overflow-hidden py-8 bg-white"
-      aria-label="Marcas que reparamos"
-    >
-      <div className="relative w-full overflow-hidden">
+    <section className="overflow-hidden h-[100px] w-full">
+      <div className="relative w-full h-full overflow-hidden">
         <div
           ref={trackRef}
-          className="flex gap-12 absolute left-0 top-0 h-full items-center px-10"
+          className="flex gap-16 absolute left-0 top-0 h-full items-center px-10"
           style={{ willChange: "transform", whiteSpace: "nowrap" }}
-          aria-hidden="true"
         >
           {[...logos, ...logos].map((logo, index) => (
-            <div key={index} className="flex-shrink-0">
-              <Image
-                src={logo.src}
-                alt={logo.alt}
-                width={100}
-                height={40}
-                loading="lazy"
-                className="h-auto w-auto max-h-[30px] object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
-                role="img"
-              />
-            </div>
+            <Image
+              key={index}
+              src={logo}
+              alt={`Logo ${index}`}
+              width={80} // ajusta según tu diseño, puedes usar 100 si deseas más resolución
+              height={20}
+              className="h-[20px] w-auto object-contain opacity-80 hover:opacity-100 transition-opacity"
+            />
           ))}
         </div>
       </div>
