@@ -26,7 +26,7 @@ export default function PlacasElectronicasPage() {
         <meta property="og:title" content="Reparación de Placas Electrónicas en RD | FrioExpert" />
         <meta
           property="og:description"
-          content="Diagnóstico, reparación y pruebas funcionales de placas electrónicas. Equipos de hogar, industria, salud y refrigeración. Servicio garantizado."
+          content="Diagnóstico, reparación y pruebas funcionales de placas electrónicas. Equipos de , industria, salud y refrigeración. Servicio garantizado."
         />
         <script
           type="application/ld+json"
@@ -38,7 +38,7 @@ export default function PlacasElectronicasPage() {
               serviceType: "Servicio técnico especializado en placas electrónicas",
               provider: {
                 "@type": "Organization",
-                name: "FrioExpert RD",
+                name: "Yireh Service",
               },
               areaServed: {
                 "@type": "Country",
@@ -72,7 +72,7 @@ export default function PlacasElectronicasPage() {
             Reparación profesional de placas electrónicas en electrodomésticos e industria
           </h1>
           <p>
-            En <strong>FrioExpert RD</strong> ofrecemos diagnóstico y reparación avanzada de placas electrónicas para una amplia gama de dispositivos:
+            En <strong>Yireh Service</strong> ofrecemos diagnóstico y reparación avanzada de placas electrónicas para una amplia gama de dispositivos:
             <strong> lavadoras, frigoríficos, aires acondicionados, televisores, inversores, UPS, equipos médicos</strong> y más.
           </p>
           <p className="mt-4">

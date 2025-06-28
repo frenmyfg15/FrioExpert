@@ -23,7 +23,7 @@ export default function LavadorasPage() {
         />
         <link rel="canonical" href="https://tusitio.com/servicios/lavadoras" />
         <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Técnicos en Lavadoras | FrioExpert RD" />
+        <meta property="og:title" content="Técnicos en Lavadoras | Yireh Service" />
         <meta
           property="og:description"
           content="Reparación, diagnóstico y mantenimiento de lavadoras de todas las marcas. Atención rápida y servicio garantizado en toda República Dominicana."
@@ -38,7 +38,7 @@ export default function LavadorasPage() {
               serviceType: "Servicio técnico de lavadoras",
               provider: {
                 "@type": "Organization",
-                name: "FrioExpert RD",
+                name: "Yireh Service",
               },
               areaServed: {
                 "@type": "Country",
@@ -72,7 +72,7 @@ export default function LavadorasPage() {
             Servicio técnico de lavadoras domésticas e industriales
           </h1>
           <p>
-            En <strong>FrioExpert RD</strong> ofrecemos reparación, diagnóstico y mantenimiento de lavadoras de todas las marcas: Samsung, LG, Whirlpool, Mabe, Electrolux y más.
+            En <strong>Yireh Service</strong> ofrecemos reparación, diagnóstico y mantenimiento de lavadoras de todas las marcas: Samsung, LG, Whirlpool, Mabe, Electrolux y más.
           </p>
           <p className="mt-4">
             Reparamos problemas de desagüe, giros, motores, tarjetas electrónicas, fallos eléctricos y piezas internas. También ofrecemos soluciones para lavadoras industriales de alto volumen.

@@ -4,7 +4,7 @@ export const services: Service[] = [
   {
     id: 1,
     title: "Instalación de Aires Acondicionados",
-    description: "Instalamos unidades split, inverter y centrales para hogares y negocios.",
+    description: "Instalamos unidades split, inverter y centrales para es y negocios.",
     image: "/images/aire-instalacion.webp",
   },
   {

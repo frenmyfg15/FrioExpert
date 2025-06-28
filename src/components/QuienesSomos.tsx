@@ -2,8 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 const descripcion = `
-Somos un equipo completo y único en este sector de las reparaciones del hogar, industrial, local u oficina.
-Abarcamos todas las áreas electrónicas de hogar, local e industrial. Ofrecemos no solo reparación sino también asesoría.
+Somos un equipo completo y único en este sector de las reparaciones del , industrial, local u oficina.
+Abarcamos todas las áreas electrónicas de , local e industrial. Ofrecemos no solo reparación sino también asesoría.
 Contamos con expertos experimentados y formados en varias ramas técnicas, tales como: técnicos de lavadoras, lavavajillas,
 frigoríficos, calderas, aires acondicionados y equipos de hostelería. También ofrecemos servicios de fontanería, limpieza y más.
 `;
@@ -24,7 +24,7 @@ export const QuienesSomos: React.FC = () => {
         <h2 className="font-bold text-base md:text-2xl md:font-bold md:px-10 max-w-3xl mx-auto leading-relaxed m-5">
           ¿Quiénes somos?
           <br />
-          Somos un equipo completo y único en este sector de las reparaciones del hogar, industrial, local u oficina.
+          Somos un equipo completo y único en este sector de las reparaciones del , industrial, local u oficina.
         </h2>
 
         <p className="text-sm font-light md:text-lg md:font-normal max-w-xl text-center leading-relaxed whitespace-pre-line">

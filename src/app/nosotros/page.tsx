@@ -8,7 +8,7 @@ export default function NosotrosPage() {
         <title>Sobre Nosotros | Técnicos Especialistas en Frío y Climatización en RD</title>
         <meta
           name="description"
-          content="Conoce a FrioExpert RD, líderes en servicio técnico de refrigeración, climatización y equipos industriales en toda la República Dominicana."
+          content="Conoce a Yireh Service, líderes en servicio técnico de refrigeración, climatización y equipos industriales en toda la República Dominicana."
         />
         <link rel="canonical" href="https://tusitio.com/nosotros" />
         <meta name="robots" content="index, follow" />
@@ -33,7 +33,7 @@ export default function NosotrosPage() {
             <div className="relative w-[300px] md:w-[450px] aspect-[4/3]">
               <Image
                 src="/image/tecnico.webp"
-                alt="Equipo técnico FrioExpert RD en servicio"
+                alt="Equipo técnico Yireh Service en servicio"
                 fill
                 sizes="(max-width: 768px) 300px, 450px"
                 className="rounded-xl object-cover shadow-lg"
@@ -45,7 +45,7 @@ export default function NosotrosPage() {
           {/* Historia y experiencia */}
           <div className="max-w-4xl mx-auto text-gray-700 text-lg leading-relaxed space-y-6 text-justify">
             <p>
-              En <strong>FrioExpert RD</strong> somos un equipo técnico multidisciplinario con más de <strong>10 años de trayectoria</strong>. Atendemos
+              En <strong>Yireh Service</strong> somos un equipo técnico multidisciplinario con más de <strong>10 años de trayectoria</strong>. Atendemos
               emergencias, mantenimientos e instalaciones en todo el país, tanto en el sector <strong>residencial</strong>, como en áreas <strong>industriales y comerciales</strong>.
             </p>
             <p>

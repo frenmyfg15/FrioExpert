@@ -23,10 +23,10 @@ const FrigorificosPage: React.FC = () => {
         />
         <link rel="canonical" href="https://tusitio.com/servicios/frigorificos" />
         <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Reparación de Frigoríficos | FrioExpert RD" />
+        <meta property="og:title" content="Reparación de Frigoríficos | Yireh Service" />
         <meta
           property="og:description"
-          content="Atendemos urgencias de frigoríficos comerciales y del hogar. Recarga de gas, termostatos, compresores, fugas. Técnicos certificados en todo RD."
+          content="Atendemos urgencias de frigoríficos comerciales y del . Recarga de gas, termostatos, compresores, fugas. Técnicos certificados en todo RD."
         />
         <script
           type="application/ld+json"
@@ -38,7 +38,7 @@ const FrigorificosPage: React.FC = () => {
               serviceType: "Servicio técnico de refrigeradores",
               provider: {
                 "@type": "Organization",
-                name: "FrioExpert RD",
+                name: "Yireh Service",
               },
               areaServed: {
                 "@type": "Country",
@@ -72,14 +72,14 @@ const FrigorificosPage: React.FC = () => {
             Reparación de frigoríficos domésticos e industriales
           </h1>
           <p>
-            En <strong>FrioExpert RD</strong> ofrecemos servicio técnico especializado para frigoríficos de uso doméstico, comercial y de alta capacidad.
+            En <strong>Yireh Service</strong> ofrecemos servicio técnico especializado para frigoríficos de uso doméstico, comercial y de alta capacidad.
             Contamos con técnicos certificados y cobertura nacional para resolver averías, fallos eléctricos y problemas de refrigeración.
           </p>
           <p className="mt-4">
             Reparamos compresores, sistemas de gas refrigerante, sensores, placas electrónicas, termostatos y todo tipo de averías comunes en refrigeradores modernos.
           </p>
           <p className="mt-4">
-            Si eres propietario de un hogar, restaurante, colmado, panadería o supermercado, podemos ayudarte a mantener tus equipos en funcionamiento
+            Si eres propietario de un , restaurante, colmado, panadería o supermercado, podemos ayudarte a mantener tus equipos en funcionamiento
             con diagnósticos precisos y repuestos garantizados.
           </p>
         </article>

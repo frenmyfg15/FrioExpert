@@ -3,7 +3,7 @@ import { ServicioData } from "@/types/service";
 export const reparacionPlacasElectronicasData: ServicioData = {
   titulo: "Reparación de Placas Electrónicas",
   descripcion:
-    "Servicio técnico especializado en la reparación y reprogramación de placas electrónicas en equipos del hogar, comerciales, industriales y médicos. Trabajamos con tecnología SMD y THT, utilizando estaciones de soldadura profesional y pruebas funcionales controladas.",
+    "Servicio técnico especializado en la reparación y reprogramación de placas electrónicas en equipos del , comerciales, industriales y médicos. Trabajamos con tecnología SMD y THT, utilizando estaciones de soldadura profesional y pruebas funcionales controladas.",
   imagen: "/image/placas.webp",
   trabajos: [
     {

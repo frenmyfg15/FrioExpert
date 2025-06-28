@@ -21,7 +21,7 @@ const Page: React.FC = () => {
         />
         <link rel="canonical" href="https://tusitio.com/servicios/aires" />
         <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Técnicos en Aire Acondicionado | FrioExpert RD" />
+        <meta property="og:title" content="Técnicos en Aire Acondicionado | Yireh Service" />
         <meta
           property="og:description"
           content="Reparación, instalación y mantenimiento de aires acondicionados residenciales e industriales en todo el país. Atención rápida y con garantía."
@@ -36,7 +36,7 @@ const Page: React.FC = () => {
               serviceType: "Reparación de aire acondicionado",
               provider: {
                 "@type": "Organization",
-                name: "FrioExpert RD",
+                name: "Yireh Service",
                 areaServed: {
                   "@type": "Country",
                   name: "República Dominicana"

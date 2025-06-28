@@ -50,7 +50,7 @@ export default function HomePage() {
             className="text-xl md:text-3xl font-bold px-4 md:px-10 max-w-3xl mx-auto leading-relaxed"
           >
             Reparación, mantenimiento e instalación de aparatos del hogar e industriales en{" "}
-            <span className="text-red-300">República</span> <span className="text-cyan-400">Dominicana</span>.
+            <span className="text-cyan-300">República</span> <span className="text-cyan-400">Dominicana</span>.
           </h1>
 
           {/* Imagen y texto */}

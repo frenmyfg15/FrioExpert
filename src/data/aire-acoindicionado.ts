@@ -35,7 +35,7 @@ export const aires: ServicioData = {
     "Diagnóstico técnico a domicilio",
     "Garantía escrita de hasta 1 año",
     "Repuestos originales o compatibles",
-    "Cobertura en hogar, negocios y hostelería"
+    "Cobertura en , negocios y hostelería"
   ],
   ventajas: [
     "Técnicos con experiencia comprobada",

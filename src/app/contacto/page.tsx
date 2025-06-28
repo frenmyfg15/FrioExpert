@@ -159,10 +159,9 @@ const Contacto: React.FC = () => {
 
               <button
                 type="submit"
-                disabled={loading}
                 aria-busy={loading}
                 aria-label="Enviar mensaje de contacto"
-                className={`bg-cyan-400 text-white px-6 py-3 rounded transition hover:bg-cyan-700 hover:scale-105 focus:ring-2 focus:ring-cyan-500 focus:outline-none ${loading ? "opacity-70 cursor-not-allowed" : ""
+                className={`bg-cyan-400 text-white px-6 py-3 rounded transition hover:bg-cyan-700 hover:scale-105 focus:ring-2 focus:ring-cyan-500 focus:outline-none cursor-pointer ${loading ? "opacity-70 cursor-not-allowed" : ""
                   }`}
               >
                 {loading ? (

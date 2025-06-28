@@ -38,7 +38,7 @@ export default function TVPage() {
               serviceType: "Servicio técnico de televisores",
               provider: {
                 "@type": "Organization",
-                name: "FrioExpert RD",
+                name: "Yireh Service",
               },
               areaServed: {
                 "@type": "Country",
@@ -72,7 +72,7 @@ export default function TVPage() {
             Servicio técnico profesional de televisores en República Dominicana
           </h1>
           <p>
-            En <strong>FrioExpert RD</strong> contamos con técnicos certificados en diagnóstico y reparación de televisores LED, LCD, OLED y Smart TV de todas las marcas.
+            En <strong>Yireh Service</strong> contamos con técnicos certificados en diagnóstico y reparación de televisores LED, LCD, OLED y Smart TV de todas las marcas.
             Solucionamos problemas de imagen, sonido, placas, retroiluminación, puertos HDMI y más.
           </p>
           <p className="mt-4">

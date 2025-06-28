@@ -23,7 +23,7 @@ export default function EquiposMedicosPage() {
         />
         <link rel="canonical" href="https://tusitio.com/servicios/equipos-medicos" />
         <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Técnicos en Equipos Médicos | FrioExpert RD" />
+        <meta property="og:title" content="Técnicos en Equipos Médicos | Yireh Service" />
         <meta
           property="og:description"
           content="Servicio técnico especializado en equipos biomédicos y clínicos en toda República Dominicana. Atención profesional y con garantía."
@@ -38,7 +38,7 @@ export default function EquiposMedicosPage() {
               serviceType: "Soporte técnico para equipos médicos",
               provider: {
                 "@type": "Organization",
-                name: "FrioExpert RD",
+                name: "Yireh Service",
                 areaServed: {
                   "@type": "Country",
                   name: "República Dominicana",
@@ -72,7 +72,7 @@ export default function EquiposMedicosPage() {
             Reparación y soporte técnico para equipos médicos electrónicos
           </h1>
           <p>
-            En <strong>FrioExpert RD</strong> brindamos atención especializada a instituciones de salud, laboratorios, centros de diagnóstico y clínicas privadas. Mantenemos y reparamos equipos biomédicos con precisión técnica y cumplimiento normativo.
+            En <strong>Yireh Service</strong> brindamos atención especializada a instituciones de salud, laboratorios, centros de diagnóstico y clínicas privadas. Mantenemos y reparamos equipos biomédicos con precisión técnica y cumplimiento normativo.
           </p>
           <p className="mt-4">
             Contamos con técnicos formados en electrónica médica y protocolos de calidad. Trabajamos con monitores, desfibriladores, centrífugas, autoclaves, fuentes de alimentación, y más.

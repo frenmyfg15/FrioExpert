@@ -14,14 +14,14 @@ export default function CamarasFrigorificasPage() {
   return (
     <>
       <Head>
-        <title>Instalación y Mantenimiento de Cámaras Frigoríficas | FrioExpert RD</title>
+        <title>Instalación y Mantenimiento de Cámaras Frigoríficas | Yireh Service</title>
         <meta
           name="description"
           content="Especialistas en instalación, reparación y mantenimiento de cámaras frigoríficas industriales y comerciales en toda República Dominicana. Servicio técnico certificado."
         />
         <link rel="canonical" href="https://tusitio.com/servicios/camaras-frigorificas" />
         <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Cámaras Frigoríficas Industriales | FrioExpert RD" />
+        <meta property="og:title" content="Cámaras Frigoríficas Industriales | Yireh Service" />
         <meta
           property="og:description"
           content="Soluciones profesionales para cámaras frigoríficas en hoteles, restaurantes, supermercados e industrias. Técnicos con experiencia."
@@ -40,7 +40,7 @@ export default function CamarasFrigorificasPage() {
               },
               provider: {
                 "@type": "Organization",
-                name: "FrioExpert RD",
+                name: "Yireh Service",
               },
               hasOfferCatalog: {
                 "@type": "OfferCatalog",
@@ -70,7 +70,7 @@ export default function CamarasFrigorificasPage() {
             Cámaras frigoríficas para hoteles, restaurantes e industria
           </h1>
           <p>
-            En <strong>FrioExpert RD</strong> somos especialistas en sistemas de refrigeración de gran escala. Instalamos, reparamos y realizamos mantenimiento a cámaras frigoríficas para el sector <strong>hotelero</strong>, <strong>alimenticio</strong> e <strong>industrial</strong>.
+            En <strong>Yireh Service</strong> somos especialistas en sistemas de refrigeración de gran escala. Instalamos, reparamos y realizamos mantenimiento a cámaras frigoríficas para el sector <strong>hotelero</strong>, <strong>alimenticio</strong> e <strong>industrial</strong>.
           </p>
           <p className="mt-4">
             Nuestro servicio técnico trabaja con precisión en soluciones para conservación de alimentos, bebidas, farmacéuticos y más. Ofrecemos atención personalizada para cada tipo de negocio o instalación.

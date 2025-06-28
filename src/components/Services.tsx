@@ -44,7 +44,7 @@ const services: Service[] = [
   {
     id: 5,
     name: "Televisores",
-    slug: "televisores",
+    slug: "tv",
     icon: <FaTv size={24} />,
     description: "Reparación de televisores LED, LCD, OLED y Smart TV",
   },

@@ -49,7 +49,7 @@ export default function MarcasCarrusel() {
               key={index}
               src={logo}
               alt={`Logo ${index}`}
-              width={80} // ajusta según tu diseño, puedes usar 100 si deseas más resolución
+              width={80}
               height={20}
               className="h-[20px] w-auto object-contain opacity-80 hover:opacity-100 transition-opacity"
             />
